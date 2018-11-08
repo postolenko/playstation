@@ -1,1 +1,1 @@
-# http://postolenko.github.io/ps/index.html
+# http://postolenko.github.io/playstation/index.html

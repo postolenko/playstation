@@ -41,13 +41,11 @@ $(document).scroll(function() {
 function getFixedHeader() {
 
 	if( $(".header_wrapp").hasClass("header-fixed") ) {
-
 		firstSect = $(".content").find("section:eq(0)");
 		paddingTopFirsSect = parseInt( firstSect.css('padding-top') );
 		firstSect.css({
 			"padding-top" : paddingTopFirsSect + $(".header-fixed").height() + "px"
 		});
-
 	}
 
 }

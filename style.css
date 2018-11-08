@@ -612,12 +612,12 @@ textarea:focus {
 }
 
 .promo-article .left {
-    width: 49%;
+    width: 53%;
     padding: 10px 1% 10px 0;
 }
 
 .promo-article .right {
-    width: 51%;
+    width: 47%;
     padding: 10px 0 10px 1%;
 }
 
@@ -662,6 +662,8 @@ textarea:focus {
 .promo-article .img-box img {
     position: relative;
     top: 24px;
+    left: 50%;
+    transform: translate(-50%, 0);
     z-index: 2;
 }
 
@@ -867,17 +869,87 @@ textarea:focus {
 
 /*-- /Section 3 - Main Page --*/
 
+/*-- Section 1 - Main Page 2 --*/
+
+.promo-article_2 {
+
+}
+
+.promo-article_2 .img-box:before {
+    background-image: -moz-linear-gradient( 90deg, rgb(127,227,255) 0%, rgb(23,185,229) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(127,227,255) 0%, rgb(23,185,229) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(127,227,255) 0%, rgb(23,185,229) 100%);
+}
+
+.promo-article_2 .img-box img {
+    top: 38px;
+    left: 46%;
+}
+
+.main-nav_2 li a {
+    color: #17b9e5;
+}
+
+.main-nav_2 li a:link,
+.main-nav_2 li a:visited {
+    border-bottom: 1px solid transparent;
+}
+
+.main-nav_2 li a:active,
+.main-nav_2 li a.active {
+    border-bottom: 1px solid #17b9e5;
+}
+
+.main-nav_2 li a:hover {
+    border-bottom: 1px solid #17b9e5;
+}
+
+.transparent-pill_2 {
+    color: #17b9e5;
+    border: 2px solid #17b9e5;
+}
+
+.transparent-pill_2:link,
+.transparent-pill_2:visited {
+    color: #17b9e5;
+    background-color: transparent;
+}
+
+.transparent-pill_2:actvie,
+.transparent-pill_2.active {
+    color: #ffffff;
+    background-color: #17b9e5;
+}
+
+.transparent-pill_2:hover {
+    color: #ffffff;
+    background-color: #17b9e5;
+}
+
+/*-- /Section 1 - Main Page 2 --*/
+
+/*-- Section 2 - Main Page 2 --*/
+
+.blue-pill_2 {
+    background-color: #17b9e5;
+    border-color: #17b9e5;
+}
+
+/*-- /Section 2 - Main Page 2 --*/
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
 
+/*-- Footer --*/
+
 .footer {
+    background-color: #ffffff;
     padding: 89px 0 10px 0;
 }
 
 .footer .row {
-    background-color: #ffffff;
     border-top: 1px solid #063d87;
     padding-top: 11px;
 }
@@ -889,3 +961,21 @@ textarea:focus {
 .footer .right {
     padding: 10px 0 10px 1%;
 }
+
+/*-- /Footer --*/
+
+/*-- Footer 2 --*/
+
+.footer_2 {
+    background-color: #ffffff;
+}
+
+.footer_2 .row {
+    border-top: 1px solid #17b9e5;
+}
+
+.footer .main-nav {
+    margin-right: -22px;
+}
+
+/*-- /Footer 2 --*/

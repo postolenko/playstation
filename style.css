@@ -837,6 +837,18 @@ textarea:focus {
     color: #ffffff;
 }
 
+.article.red {
+    border-left: 10px solid #c32931;
+}
+
+.article.green {
+    border-left: 10px solid #107c10;
+}
+
+.article.blue {
+    border-left: 10px solid #23c9f9;
+}
+
 .article p {
     padding: 30px 0;
     font-size: 16px;

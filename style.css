@@ -837,15 +837,15 @@ textarea:focus {
     color: #ffffff;
 }
 
-.article.red {
+.article.red h2 {
     border-left: 10px solid #c32931;
 }
 
-.article.green {
+.article.green h2 {
     border-left: 10px solid #107c10;
 }
 
-.article.blue {
+.article.blue h2 {
     border-left: 10px solid #23c9f9;
 }
 

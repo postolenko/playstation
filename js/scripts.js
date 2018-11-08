@@ -12,7 +12,7 @@ $(window).load(function() {
 	$(".header_wrapp").addClass("header-fixed");
 
 	getFooterPosition();
-	getFixedHeader();
+	getFixedHeaderParams();
 	getScrollHeaderParams();
 
 });
@@ -20,7 +20,7 @@ $(window).load(function() {
 $(window).resize(function() {
     
 	getFooterPosition();
-	getFixedHeader();
+	getFixedHeaderParams();
 	getScrollHeaderParams();
 
 });
@@ -33,12 +33,11 @@ $(document).ready(function() {
 $(document).scroll(function() {   
 
 	getScrollHeaderParams();
-	getFixedHeader();
-	getScrollHeaderParams();
+	// getFixedHeaderParams();
 
 });
 
-function getFixedHeader() {
+function getFixedHeaderParams() {
 
 	if( $(".header_wrapp").hasClass("header-fixed") ) {
 		firstSect = $(".content").find("section:eq(0)");

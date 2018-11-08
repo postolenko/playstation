@@ -9,7 +9,7 @@ $(window).load(function() {
 	$(".header_wrapp").addClass("header-fixed");
 
 	getFooterPosition();
-	getFixedHEader();
+	getFixedHeader();
 	getScrollHeaderParams();
 
 });
@@ -17,6 +17,8 @@ $(window).load(function() {
 $(window).resize(function() {
     
 	getFooterPosition();
+	getFixedHeader();
+	getScrollHeaderParams();
 
 });
 
@@ -31,7 +33,7 @@ $(document).scroll(function() {
 
 });
 
-function getFixedHEader() {
+function getFixedHeader() {
 
 	if( $(".header_wrapp").hasClass("header-fixed") ) {
 
@@ -68,7 +70,5 @@ function getScrollHeaderParams() {
 		$(".header").removeClass("js-scroll");
 
 	}
-
-	console.log( $(".header-fixed").offset().top );
 
 }

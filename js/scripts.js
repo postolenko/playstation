@@ -61,14 +61,12 @@ function getFooterPosition() {
 
 function getScrollHeaderParams() {
 
-	if( $(".header-fixed").offset().top > 1 ) {
-
-		$(".header").addClass("js-scroll");
-
-	} else {
-
-		$(".header").removeClass("js-scroll");
-
+	if( $(".header_wrapp").hasClass("header-fixed") ) {
+		if( $(".header-fixed").offset().top > 1 ) {
+			$(".header").addClass("js-scroll");
+		} else {
+			$(".header").removeClass("js-scroll");
+		}
 	}
 
 }

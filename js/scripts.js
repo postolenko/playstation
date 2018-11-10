@@ -170,7 +170,7 @@ function getFooterPosition() {
 function getScrollHeaderParams() {
 
 	if( $(".header_wrapp").hasClass("header-fixed") ) {
-		if( $(".header-fixed").offset().top > 1 ) {
+		if( $(".header-fixed").offset().top > 4 ) {
 			$(".header").addClass("js-scroll");
 		} else {
 			$(".header").removeClass("js-scroll");

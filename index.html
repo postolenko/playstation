@@ -21,11 +21,40 @@
 	<!-- <script type="text/javascript" src="vendors/js/select2.js"></script> -->
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
 
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </head>
 
 <body>
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<div class="popup">
+			<img class="popup-logo" src="img/logo.png" alt="" />
+			<div class="popup-form">
+				<div class="inner">
+					<h3>Войдите в личный кабинет<br /> или зарегистрируйтесь</h3>
+					<a href="#" class="blue-pill_3"><i class="facebook"></i>Войти с помощью Facebook</a>
+					<a href="#" class="white-pill"><i class="google"></i>Войти с помощью Google</a>
+					<div class="form_wrapp">
+						<p>или</p>
+						<div class="input_wrapp">
+							<input type="text" placeholder="Введите вашу почту" />
+						</div>
+					</div>
+				</div>
+				<div class="popup_footer">
+					<button type="submit" class="submit_btn">Продолжить</button>
+				</div>
+			</div>
+			<div class="links_wrapp">
+				<a href="#" class="blue-link">Забыли пароль?</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
 
 	<div class="wrapper">
 
@@ -50,7 +79,7 @@
 						</ul>
 					</div>
 					<div class="sign-in_wrapp">
-						<a href="#" class="transparent-pill">Войти</a>
+						<a href="#" class="transparent-pill show_popup" data-popup-name="popup_1" >Войти</a>
 					</div>
 				</div>
 			</div>
@@ -216,7 +245,7 @@
 				</div>
 				<div class="right">
 					<div class="overflow_wrapp">
-						<ul class="main-nav">
+						<ul class="main-nav main-nav_footer">
 							<li><a href="#">Playstation </a></li>
 							<li><a href="#">NINTENDO</a></li>
 							<li><a href="#">XBOX</a></li>

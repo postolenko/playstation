@@ -1747,14 +1747,14 @@ p.sum-num {
 
 .two-cols_templ_3 .cell-left {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
     width: 300px;
     padding: 0 0 10px 0;
 }
 
 .two-cols_templ_3 .cell-right {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
     width: calc(100% - 300px);
     padding: 0 0 10px 0;
 }
@@ -1801,7 +1801,7 @@ p.sum-num {
 }
 
 .thumbnails_2 {
-
+    margin-bottom: 40px;
 }
 
 .thumb_2 {
@@ -1958,6 +1958,114 @@ p.sum-num {
     color: #ffffff;
 }
 
+.steps_title h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.blue {
+    color: #063d86;
+}
+
+.steps_title p {
+    padding: 10px 0 5px 0;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.steps_title p .blue {
+    font-weight: bold;
+}
+
+.form_wrapp_2  {
+    padding: 77px 0 0 3.4%;
+}
+
+.form_wrapp_2 .input_wrapp {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: 10px 0;
+    padding: 0 15px 0 0;
+}
+
+.form_wrapp_2 .input_wrapp:nth-child(even) {
+    padding: 0 0 0 15px;
+}
+
+.form_wrapp_2 .blue-pill {
+    width: 100%;
+    margin: 0;
+}
+
+.waiting-box {
+    text-align: center;
+    padding: 22px 0 0 0;
+}
+
+.waiting-box p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.loading {
+    margin: 23px 0 0 0;
+}
+
+.loading span {
+    display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.loading span:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #84bafc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition-property: width, height, background-color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: width, height, background-color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: width, height, background-color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: width, height, background-color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: width, height, background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.loading span.active:before {
+    width: 14px;
+    height: 14px;
+    background-color: #043e84;
+}
+
+
+
 /*-- /Section 2 - PS add money --*/
 
 /*-------------------------------------------*/
@@ -2110,7 +2218,7 @@ p.sum-num {
 }
 
 .input_wrapp {
-    margin: 18px 0;
+    margin: 19px 0;
 }
 
 .submit_btn {

@@ -155,7 +155,43 @@ $(document).ready(function() {
 
     });
 
+    // ----------------------
+
+    if( $(".loading").length > 0 ) {
+
+        var countCircles = $(".loading span").length;
+        var index = 0;
+        var clearAnimationInterval;
+
+        getLoadingAnimation(countCircles,0);
+
+    }
+
 });
+
+function getLoadingAnimation(countCircles,index) {
+
+    clearAnimationInterval = setInterval(function() {
+
+        if( index > 0 ) {
+            $(".loading span:eq("+ ( index - 1 ) +")").removeClass("active");
+        }
+
+        $(".loading span:eq("+ index +")").addClass("active");        
+
+        if( index > countCircles - 1 ) {
+            $(".loading span:eq("+ index +")").removeClass("active");
+            clearInterval(clearAnimationInterval);
+            getLoadingAnimation(countCircles,0);
+        }
+
+        console.log(index);
+
+        ++index;
+
+    }, 600);
+
+}
 
 function getFixedHeaderParams() {
 

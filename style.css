@@ -831,7 +831,7 @@ textarea:focus {
 
 .header .right {
     width: 77%;
-    padding: 10px 0 10px 1%;
+    padding: 12px 0 10px 1%;
     text-align: right;
 }
 
@@ -868,45 +868,52 @@ textarea:focus {
 
 .main-nav li a {
     display: block;
-    border-bottom: 1px solid transparent;
     text-transform: uppercase;
     font-size: 22px;
     line-height: 22px;
     font-weight: 500;
-    color: #063d86;
-    -webkit-transition-property: border-bottom;
+    color: #306ebf;
+    -webkit-transition-property: color;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
 
-    -moz-transition-property: border-bottom;
+    -moz-transition-property: color;
     -moz-transition-duration: .3s;
     -moz-transition-timing-function: ease;
 
-    -ms-transition-property: border-bottom;
+    -ms-transition-property: color;
     -ms-transition-duration: .3s;
     -ms-transition-timing-function: ease;
 
-    -o-transition-property: border-bottom;
+    -o-transition-property: color;
     -o-transition-duration: .3s;
     -o-transition-timing-function: ease;
 
-    transition-property: border-bottom;
+    transition-property: color;
     transition-duration: .3s;
     transition-timing-function: ease;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    border-bottom: 1px solid transparent;
+    font-weight: 500;
+    color: #306ebf;
 }
 
 .main-nav li a:active,
 .main-nav li a.active {
-    border-bottom: 1px solid #063d86;
+    font-weight: bold;
+    color: #063d86;
 }
 
 .main-nav li a:hover {
-    border-bottom: 1px solid #063d86;
+    font-weight: 500;
+    color: #063d86;
+}
+
+.main-nav li a.active:hover {
+    font-weight: bold;
+    color: #063d86;
 }
 
 .sign-in_wrapp {
@@ -1570,6 +1577,388 @@ p.sum-num {
 }
 
 /*-- /Section 1 - Dashboard Page --*/
+
+/*-- /Section 1 - PS add money --*/
+
+.grey-gradient {
+    background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,0.65) 89%, rgba(242,242,242,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(242,242,242,0.65) 89%,rgba(242,242,242,0) 100%);
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(242,242,242,0.65) 89%,rgba(242,242,242,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#00f2f2f2',GradientType=0 );
+}
+
+.two-cols_templ_2 {
+    padding: 31px 0 15px 0;
+}
+
+.two-cols_templ_2 .left {
+    width: 42%;
+    padding: 46px 2% 10px 0;
+}
+
+.two-cols_templ_2 .right {
+    width: 58%;
+    padding: 10px 0 10px 2%;
+}
+
+.two-cols_templ_2 .left .inner {
+
+}
+
+.two-cols_templ_2 h1 {
+    max-width: 380px;
+    padding: 15px 0;
+}
+
+.two-cols_templ_2 p {
+    padding: 15px 0;
+}
+
+.scroll-down_btn {
+    display: block;
+    width: 32px;
+    height: 76px;
+    cursor: pointer;
+    margin: 48px 0 0 6%;
+    position: relative;
+    border: 1px solid transparent;
+    background-color: transparent;
+    background-image: url(img/mouse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: mousescroll 3s infinite;
+    -moz-animation: mousescroll 3s infinite;
+    -o-animation: mousescroll 3s infinite;
+    animation: mousescroll 3s infinite;
+}
+
+@keyframes mousescroll {
+    0%{top:-15px;}
+    50%{top:0;}
+    100%{top:-15px;}
+}
+
+@-webkit-keyframes mousescroll {
+    0%{top:-15px;}
+    50%{top:0;}
+    100%{top:-15px;}
+}
+
+@-moz-keyframes mousescroll {
+    0%{top:-15px;}
+    50%{top:0;}
+    100%{top:-15px;}
+}
+
+@-o-keyframes mousescroll {
+    0%{top:-15px;}
+    50%{top:0;}
+    100%{top:-15px;}
+}
+
+.two-cols_templ_2 .img-box {
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+.two-cols_templ_2 .img-box img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.controls {
+    padding: 18px 0;
+}
+
+.controls > div:nth-child(1) {
+    width: 50%;
+    padding: 10px 1% 10px 0;
+    float: left;
+    text-align: left;
+}
+
+.controls > div:nth-child(2) {
+    width: 50%;
+    padding: 10px 0 10px 1%;
+    float: right;
+    text-align: right;
+}
+
+.red-prev {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #c32931;
+}
+
+.red-prev:before {
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    width: 26px;
+    height: 19px;
+    margin-right: 10px;
+    background-image: url(img/arrows_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -2px -1px;
+}
+
+.green-next {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #107c10;
+}
+
+.green-next:after {
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    width: 26px;
+    height: 19px;
+    margin-left: 10px;
+    background-image: url(img/arrows_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -45px -1px;
+}
+
+/*-- /Section 1 - PS add money --*/
+
+/*-- Section 2 - PS add money --*/
+
+.two-cols_templ_3 {
+    display: table;
+    width: 100%;
+}
+
+.two-cols_templ_3 .cell-left {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 300px;
+    padding: 0 0 10px 0;
+}
+
+.two-cols_templ_3 .cell-right {
+    display: table-cell;
+    vertical-align: bottom;
+    width: calc(100% - 300px);
+    padding: 0 0 10px 0;
+}
+
+.steps {
+
+}
+
+.steps p {
+    display: inline-block;
+    vertical-align: baseline;
+    opacity: .33;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #063d86;
+}
+
+.steps p:nth-child(3) {
+    opacity: 1;
+    font-size: 60px;
+    line-height: 60px;
+
+}
+
+.steps_title {
+    background-color: #f2f2f2;
+    margin: 17px 0 0 0;
+    padding: 22px 2% 21px 0;
+    position: relative;
+}
+
+.steps_title .bg {
+    width: 1000%;
+    height: 100%;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    right: 100%;
+}
+
+.steps_title h2 {
+
+}
+
+.thumbnails_2 {
+
+}
+
+.thumb_2 {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.thumbnails_2 .thumb_2:nth-child(1) {
+    width: 33%;
+}
+
+.thumbnails_2 .thumb_2:nth-child(2) {
+    width: 35%;
+}
+
+.thumbnails_2 .thumb_2:nth-child(3) {
+    width: 32%;
+}
+
+.thumb_2 input {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+.thumb_2 label {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.thumb_2 .thumb_title {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 30px;
+    background-color: #063d86;
+}
+
+.thumbnails_2 .thumb_2:nth-child(2) .thumb_title {
+    background-color: #1652a1;
+}
+
+.thumbnails_2 .thumb_2:nth-child(3) .thumb_title {
+    background-color: #2d6aba;
+}
+
+.thumb_2 .thumb_title h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.thumb_2 .descript {
+    background-color: #063d86;
+    text-align: center;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.thumb_2 input:checked + label + .thumb_title + .descript {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(6,61,134,.5);
+    -moz-box-shadow: 0 2px 10px 0 rgba(6,61,134,.5);
+    box-shadow: 0 2px 10px 0 rgba(6,61,134,.5);
+}
+
+.thumbnails_2 .thumb_2:nth-child(2) .descript {
+    background-color: #1652a1;
+}
+
+.thumbnails_2 .thumb_2:nth-child(3) .descript {
+    background-color: #2d6aba;
+}
+
+.thumb_2 .descript .inner {
+    min-height: 167px;
+    padding: 36px 30px 13px 30px;
+}
+
+.thumb_2 .descript p {
+    padding: 7px 0;
+    font-size: 20px;
+    line-height: 30px;
+    color: #cce2ff;
+}
+
+.thumb_2 .descript p.p-1 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.thumb_2 .thumb_footer {
+    border-top: 1px solid #c5d4e7;
+    -webkit-transition-property: border-color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border-color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border-color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border-color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border-color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.thumb_2 input:checked + label + .thumb_title + .descript .thumb_footer {
+    border-color: #ffffff;
+}
+
+.thumb_2 .thumb_footer p {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/*-- /Section 2 - PS add money --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

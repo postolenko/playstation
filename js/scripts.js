@@ -10,10 +10,12 @@ var paddingTopFirsSect;
 $(window).load(function() {
 
 	$(".header_wrapp").addClass("header-fixed");
+    $(".steps_title").prepend("<div class='bg'></div>");
 
 	getFooterPosition();
 	getFixedHeaderParams();
 	getScrollHeaderParams();
+    getCustomsElemsParams();
 
 });
 
@@ -22,6 +24,14 @@ $(window).resize(function() {
 	getFooterPosition();
 	getFixedHeaderParams();
 	getScrollHeaderParams();
+    getCustomsElemsParams();
+
+});
+
+$(document).scroll(function() {   
+
+    getScrollHeaderParams();
+    // getFixedHeaderParams();
 
 });
 
@@ -131,12 +141,19 @@ $(document).ready(function() {
 
     });
 
-});
+    // ----------------------
 
-$(document).scroll(function() {   
+    $(".scroll-down_btn").click(function(e) {
 
-	getScrollHeaderParams();
-	// getFixedHeaderParams();
+        e.preventDefault();
+        parentBlock = $(this).closest("section");
+        var bottomCoord = parentBlock.offset().top + parentBlock.height();
+
+        $("html, body").animate({
+            scrollTop: bottomCoord
+        }, 700);
+
+    });
 
 });
 
@@ -176,5 +193,18 @@ function getScrollHeaderParams() {
 			$(".header").removeClass("js-scroll");
 		}
 	}
+
+}
+
+function getCustomsElemsParams() {
+
+    $(".steps_title .bg").each(function() {
+
+        parentBlock = $(this).closest(".steps_title");
+        $(this).css({
+            "width" : parentBlock.offset().left + "px"
+        });
+
+    });
 
 }

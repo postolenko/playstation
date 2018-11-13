@@ -1,19 +1,31 @@
 $(window).on("load",function(){
 
-	$(".scroll").mCustomScrollbar();
+	getScrollBar()
+
+});
+
+$(window).on("resize",function(){
+
+	getScrollBar();
 
 });
 
 $(document).ready(function() {		
 
-	$("select").each(function() {
 
-		$(this).select2({
-			minimumResultsForSearch: Infinity,
-			width: '100%'
-		});
-
-	});
 
 });
 
+function getScrollBar() {
+
+	if( bodyWidth <= 900 ) {
+
+		$("#main_nav").mCustomScrollbar()
+
+	} else {
+
+		$("#main_nav").mCustomScrollbar('destroy')
+
+	}
+
+}

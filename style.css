@@ -2147,27 +2147,27 @@ p.sum-num {
     background-color: #00a0cc;
 }
 
-.thumbnails_2 .thumb_2:nth-child(2) .thumb_title {
+.thumbnails_2_2 .thumb_2:nth-child(2) .thumb_title {
     background-color: #17b9e5;
 }
 
-.thumbnails_2 .thumb_2:nth-child(2) .descript {
+.thumbnails_2_2 .thumb_2:nth-child(2) .descript {
     background-color: #17b9e5;
 }
 
-.thumbnails_2 .thumb_2:nth-child(3) .thumb_title {
+.thumbnails_2_2 .thumb_2:nth-child(3) .thumb_title {
     background-color: #33d3ff;
 }
 
-.thumbnails_2 .thumb_2:nth-child(3) .descript {
+.thumbnails_2_2 .thumb_2:nth-child(3) .descript {
     background-color: #33d3ff;
 }
 
-.thumbnails_2 .descript p {
+.thumbnails_2_2 .descript p {
     color: #ccf4ff;
 }
 
-.thumbnails_2 .thumb_2 input:checked + label + .thumb_title + .descript {
+.thumbnails_2_2 .thumb_2 input:checked + label + .thumb_title + .descript {
     -webkit-box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
     -moz-box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
     box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
@@ -2194,6 +2194,76 @@ p.sum-num {
 }
 
 .form_wrapp_2_2 textarea:focus {
+    border-color: #e8263d;
+}
+
+.steps_title p .blue_light {
+    font-weight: bold;
+}
+
+/*-- /Section 2 - Itunes add money --*/
+
+/*-- Section 1 - Itunes add money --*/
+
+.steps_2 p {
+    color: #17b9e5;
+}
+
+.thumbnails_2_2 .thumb_title {
+    background-color: #00a0cc;
+}
+
+.thumbnails_2_2 .descript {
+    background-color: #00a0cc;
+}
+
+.thumbnails_2_2 .thumb_2:nth-child(2) .thumb_title {
+    background-color: #17b9e5;
+}
+
+.thumbnails_2_2 .thumb_2:nth-child(2) .descript {
+    background-color: #17b9e5;
+}
+
+.thumbnails_2_2 .thumb_2:nth-child(3) .thumb_title {
+    background-color: #33d3ff;
+}
+
+.thumbnails_2_2 .thumb_2:nth-child(3) .descript {
+    background-color: #33d3ff;
+}
+
+.thumbnails_2_2 .descript p {
+    color: #ccf4ff;
+}
+
+.thumbnails_2_2 .thumb_2 input:checked + label + .thumb_title + .descript {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
+    -moz-box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
+    box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
+}
+
+/*-- /Section 1 - Itunes add money --*/
+
+/*-- Section 2 - Itunes add money --*/
+
+.blue_light {
+    color: #17b9e5;
+}
+
+.form_wrapp_2_3 input {
+    border-color: rgb(23, 185, 229);
+}
+
+.form_wrapp_2_3 textarea {
+    border-color: rgb(23, 185, 229);
+}
+
+.form_wrapp_2_3 input:focus {
+    border-color: #e8263d;
+}
+
+.form_wrapp_2_3 textarea:focus {
     border-color: #e8263d;
 }
 

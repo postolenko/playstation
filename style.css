@@ -1397,21 +1397,29 @@ textarea:focus {
 /*-- Header 4 --*/
 
 .main-nav_4 li a {
-    color: #107c10;
+    color: #3aa63a;
 }
 
 .main-nav_4 li a:link,
 .main-nav_4 li a:visited {
-    border-bottom: 1px solid transparent;
+    font-weight: 500;
+    color: #3aa63a;
 }
 
 .main-nav_4 li a:active,
 .main-nav_4 li a.active {
-    border-bottom: 1px solid #107c10;
+    font-weight: bold;
+    color: #107c10;
 }
 
 .main-nav_4 li a:hover {
-    border-bottom: 1px solid #107c10;
+    font-weight: 500;
+    color: #107c10;
+}
+
+.main-nav_4 li a.active:hover {
+    font-weight: bold;
+    color: #107c10;
 }
 
 .transparent-pill_4 {
@@ -2329,6 +2337,129 @@ p.sum-num {
 }
 
 /*-- /Section 2 - Nintendo add money --*/
+
+/*-- Section 1 - Xbox add money --*/
+
+.scroll-down_btn_4 {
+    background-image: url(img/mouse_4.png);
+}
+
+.blue-prev {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #063d87;
+}
+
+.blue-prev:before {
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    width: 26px;
+    height: 19px;
+    margin-right: 10px;
+    background-image: url(img/arrows_sprite_4.png);
+    background-repeat: no-repeat;
+    background-position: 1px 1px;
+}
+
+.bluelight-next {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #17b9e5;
+}
+
+.bluelight-next:after {
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    width: 26px;
+    height: 19px;
+    margin-left: 10px;
+    background-image: url(img/arrows_sprite_4.png);
+    background-repeat: no-repeat;
+    background-position: -43px 1px;
+}
+
+/*-- /Section 1 - Xbox add money --*/
+
+/*-- Section 2 - Xbox add money --*/
+
+.steps_4 p {
+    color: #107c10;
+}
+
+.thumbnails_2_4 .thumb_title {
+    background-color: #107c10;
+}
+
+.thumbnails_2_4 .descript {
+    background-color: #107c10;
+}
+
+.thumbnails_2_4 .thumb_2:nth-child(2) .thumb_title {
+    background-color: #239623;
+}
+
+.thumbnails_2_4 .thumb_2:nth-child(2) .descript {
+    background-color: #239623;
+}
+
+.thumbnails_2_4 .thumb_2:nth-child(3) .thumb_title {
+    background-color: #17b017;
+}
+
+.thumbnails_2_4 .thumb_2:nth-child(3) .descript {
+    background-color: #17b017;
+}
+
+.thumbnails_2_4 .descript p {
+    color: #ccffcc;
+}
+
+.thumbnails_2_4 .thumb_2 input:checked + label + .thumb_title + .descript {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(16,124,16,.5);
+    -moz-box-shadow: 0 2px 10px 0 rgba(16,124,16,.5);
+    box-shadow: 0 2px 10px 0 rgba(16,124,16,.5);
+}
+
+.green {
+    color: #107c10;
+}
+
+.form_wrapp_2_4 input {
+    border-color: #107c10;
+}
+
+.form_wrapp_2_4 textarea {
+    border-color: #107c10;
+}
+
+.form_wrapp_2_4 input:focus {
+    border-color: #e8263d;
+}
+
+.form_wrapp_2_4 textarea:focus {
+    border-color: #e8263d;
+}
+
+.steps_title p .green {
+    font-weight: bold;
+}
+
+.form_wrapp_2 .green-pill {
+    width: 100%;
+    margin: 0;
+}
+
+/*-- /Section 2 - Xbox add money --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

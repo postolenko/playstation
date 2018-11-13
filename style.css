@@ -1323,21 +1323,29 @@ textarea:focus {
 /*-- Header 3 --*/
 
 .main-nav_3 li a {
-    color: #c32931;
+    color: #ff757c;
 }
 
 .main-nav_3 li a:link,
 .main-nav_3 li a:visited {
-    border-bottom: 1px solid transparent;
+    color: #ff757c;
+    font-weight: 500;
 }
 
 .main-nav_3 li a:active,
 .main-nav_3 li a.active {
-    border-bottom: 1px solid #c32931;
+    color: #c32931;
+    font-weight: bold;
 }
 
 .main-nav_3 li a:hover {
-    border-bottom: 1px solid #c32931;
+    color: #c32931;
+    font-weight: 500;
+}
+
+.main-nav_3 li a.active:hover {
+    color: #c32931;
+    font-weight: bold;
 }
 
 .transparent-pill_3 {
@@ -1955,7 +1963,7 @@ p.sum-num {
     font-size: 22px;
     line-height: 30px;
     font-weight: 500;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .steps_title h3 {
@@ -2133,7 +2141,7 @@ p.sum-num {
 
 /*-- /Section 1 - Itunes add money --*/
 
-/*-- Section 1 - Itunes add money --*/
+/*-- Section 2 - Itunes add money --*/
 
 .steps_2 p {
     color: #17b9e5;
@@ -2172,10 +2180,6 @@ p.sum-num {
     -moz-box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
     box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
 }
-
-/*-- /Section 1 - Itunes add money --*/
-
-/*-- Section 2 - Itunes add money --*/
 
 .blue_light {
     color: #17b9e5;
@@ -2203,60 +2207,108 @@ p.sum-num {
 
 /*-- /Section 2 - Itunes add money --*/
 
-/*-- Section 1 - Itunes add money --*/
+/*-- Section 1 - Nintendo add money --*/
 
-.steps_2 p {
+.scroll-down_btn_3 {
+    background-image: url(img/mouse_3.png);
+}
+
+.bluelight-prev {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
     color: #17b9e5;
 }
 
-.thumbnails_2_2 .thumb_title {
-    background-color: #00a0cc;
+.bluelight-prev:before {
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    width: 26px;
+    height: 19px;
+    margin-right: 10px;
+    background-image: url(img/arrows_sprite_3.png);
+    background-repeat: no-repeat;
+    background-position: 1px 0;
 }
 
-.thumbnails_2_2 .descript {
-    background-color: #00a0cc;
+.blue-next {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #063d87;
 }
 
-.thumbnails_2_2 .thumb_2:nth-child(2) .thumb_title {
-    background-color: #17b9e5;
+.blue-next:after {
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    width: 26px;
+    height: 19px;
+    margin-left: 10px;
+    background-image: url(img/arrows_sprite_3.png);
+    background-repeat: no-repeat;
+    background-position: -43px 0px;
 }
 
-.thumbnails_2_2 .thumb_2:nth-child(2) .descript {
-    background-color: #17b9e5;
+/*-- /Section 1 - Nintendo add money --*/
+
+/*-- Section 2 - Nintendo add money --*/
+
+.steps_3 p {
+    color: #c32931;
 }
 
-.thumbnails_2_2 .thumb_2:nth-child(3) .thumb_title {
-    background-color: #33d3ff;
+.thumbnails_2_3 .thumb_title {
+    background-color: #c32931;
 }
 
-.thumbnails_2_2 .thumb_2:nth-child(3) .descript {
-    background-color: #33d3ff;
+.thumbnails_2_3 .descript {
+    background-color: #c32931;
 }
 
-.thumbnails_2_2 .descript p {
-    color: #ccf4ff;
+.thumbnails_2_3 .thumb_2:nth-child(2) .thumb_title {
+    background-color: #db444c;
 }
 
-.thumbnails_2_2 .thumb_2 input:checked + label + .thumb_title + .descript {
-    -webkit-box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
-    -moz-box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
-    box-shadow: 0 2px 10px 0 rgba(0,160,240,.5);
+.thumbnails_2_3 .thumb_2:nth-child(2) .descript {
+    background-color: #db444c;
 }
 
-/*-- /Section 1 - Itunes add money --*/
+.thumbnails_2_3 .thumb_2:nth-child(3) .thumb_title {
+    background-color: #f5646c;
+}
 
-/*-- Section 2 - Itunes add money --*/
+.thumbnails_2_3 .thumb_2:nth-child(3) .descript {
+    background-color: #f5646c;
+}
 
-.blue_light {
-    color: #17b9e5;
+.thumbnails_2_3 .descript p {
+    color: #ffcccf;
+}
+
+.thumbnails_2_3 .thumb_2 input:checked + label + .thumb_title + .descript {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(195,41,49,.5);
+    -moz-box-shadow: 0 2px 10px 0 rgba(195,41,49,.5);
+    box-shadow: 0 2px 10px 0 rgba(195,41,49,.5);
+}
+
+.red {
+    color: #c32931;
 }
 
 .form_wrapp_2_3 input {
-    border-color: rgb(23, 185, 229);
+    border-color: #c32931;
 }
 
 .form_wrapp_2_3 textarea {
-    border-color: rgb(23, 185, 229);
+    border-color: #c32931;
 }
 
 .form_wrapp_2_3 input:focus {
@@ -2267,12 +2319,16 @@ p.sum-num {
     border-color: #e8263d;
 }
 
-.steps_title p .blue_light {
+.steps_title p .red {
     font-weight: bold;
 }
 
-/*-- /Section 2 - Itunes add money --*/
+.form_wrapp_2 .red-pill {
+    width: 100%;
+    margin: 0;
+}
 
+/*-- /Section 2 - Nintendo add money --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

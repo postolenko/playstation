@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="button" expanded="true" height="40px" width="100%">
+  <g transform="translate(0 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-1.35s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(16 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-1.2s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(32 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-1.05s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(48 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-0.90s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(64 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-0.75s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(80 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-0.60s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(96 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-0.45s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(112 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-0.30s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(128 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="-0.15s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+    <g transform="translate(142 0)">
+    <circle class = "innerCircle" cx="20px" cy="20px" r="25%" fill="#84bafc">
+      <animate attributeName="r" begin="0s" dur="1.5s" repeatCount="indefinite" values="4px;7px;4px;4px;4px;4px;4px;4px;4px;4px"/>
+    </circle>
+    </g>
+  </svg>

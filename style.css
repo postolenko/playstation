@@ -1091,6 +1091,7 @@ textarea:focus {
 
 .promo-article {
     padding: 20px 0 31px 0;
+    overflow: hidden;
 }
 
 .promo-article .left {

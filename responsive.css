@@ -89,6 +89,40 @@
 
 	/*-- /Section 1 - Dashboard Page --*/
 
+	/*-- Section 2 - PS add money --*/
+
+	.two-cols_templ_3 {
+	    display: block;
+	}
+
+	.two-cols_templ_3 .cell-left {
+		display: block;
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.two-cols_templ_3 .cell-right {
+		display: block;
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.steps_title {
+		padding-left: 12px;
+		padding-right: 12px;
+		padding: 19px 12px 19px 12px;
+	}
+
+	.steps_title .bg {
+		display: none;
+	}
+
+	.form_wrapp_2 {
+	    padding: 0px;
+	}
+
+	/*-- /Section 2 - PS add money --*/
+
 	/*-- Footer --*/
 
 	.main-nav_footer {
@@ -283,7 +317,7 @@
 
 	/*-- /Section 1 - Main Page --*/
 
-	/*-- Section 1 - Dashboard Page-- */
+	/*-- Section 1 - Dashboard Page -- */
 
 	.two-cols_templ .left {
 	    width: 100%;
@@ -301,7 +335,20 @@
 	    margin: 9px 0;
 	}
 
-	/*-- /Section 1 - Dashboard Page-- */
+	/*-- /Section 1 - Dashboard Page -- */
+
+	/*-- Section 1 - PS add money -- */
+
+	.two-cols_templ_3 .cell-right {
+	    padding-top: 0;
+	}
+
+	.thumb_2 {
+		margin: 10px 0;
+		width: 50% !important;
+	}
+
+	/*-- /Section 1 - PS add money -- */
 
 }
 
@@ -383,6 +430,69 @@
 	}
 
 	/*-- /Section 1 - Dashboard Page --*/
+
+	/*-- Section 1 - PS add money --*/
+
+	.sect_1_2 .row {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.two-cols_templ_2 {
+	    padding: 0 0 15px 0;
+	}
+
+	.two-cols_templ_2 .right {
+	    width: 100%;
+	    float: none;
+	    padding: 0;
+	}
+
+	.two-cols_templ_2 .left {
+	    width: 100%;
+	    float: none;
+	    padding: 2px 12px 10px 12px;
+	}
+
+	.two-cols_templ_2 .img-box {
+	    height: 250px;
+	}
+
+	.controls {
+	    padding: 8px 12px;
+	}
+
+	.two-cols_templ_2 h1 {
+	    max-width: 100%;
+	    padding: 10px 0;
+	}
+
+	.two-cols_templ_2 p {
+	    padding: 10px 0;
+	}
+
+	.scroll-down_btn {
+	    display: none;
+	}
+
+	/*-- /Section 1 - PS add money --*/
+
+	/*-- Section 2 - PS add money --*/
+
+	.thumbnails_2 {
+	    margin-bottom: 0;
+	}
+
+	.two-cols_templ_3 .cell-right {
+	    padding-bottom: 10px 0 0 0;
+	}
+
+	.steps_title h2 {
+	    font-size: 27px;
+	    line-height: 38px;
+	}
+
+	/*-- /Section 2 - PS add money --*/
 
 	/*-- Footer --*/
 
@@ -508,6 +618,26 @@
 	}
 
 	/*-- /Section 1 - Dashboard Page --*/
+
+	/*-- Section 2 - PS add money --*/
+
+	.thumb_2 {
+	    width: 100% !important;
+	}
+
+	.form_wrapp_2 .input_wrapp {
+/*	    display: inline-block;
+	    vertical-align: top;*/
+	    width: 100%;
+	    /*margin: 10px 0;*/
+	    padding: 0;
+	}
+
+	.form_wrapp_2 .input_wrapp:nth-child(even) {
+	    padding: 0;
+	}
+
+	/*-- /Section 2 - PS add money --*/
 
 	/*-- Footer --*/
 

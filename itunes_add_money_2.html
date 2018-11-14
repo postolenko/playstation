@@ -15,6 +15,7 @@
 	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<title>Title</title>
 </head>
 
 <body>
@@ -54,25 +55,36 @@
 		
 	<header class="header_wrapp">
 
-		<div class="header">
+		<div class="header header_2">
 			<div class="row clearfix">
 				<div class="left">
 					<a href="#" class="logo">
 						<img src="img/logo_2.png" alt="logo" />
 					</a>
+					<a href="#" class="logo_resp">
+						<img src="img/logo_white.png" alt="logo" />
+					</a>
 				</div>
 				<div class="right">
-					<div class="main-nav_wrapp">
-						<ul class="main-nav main-nav_2">
-							<li><a href="#">Playstation </a></li>
+					<div class="main-nav_wrapp main-nav_wrapp_header" id="main_nav">
+						<div class="sign-in_wrapp_resp">
+							<a href="#" class="white_link show_popup" data-popup-name="popup_1" >Войти</a>
+						</div>
+						<ul class="main-nav main-nav_2 main-nav_top">
+							<li><a href="#">Playstation</a></li>
 							<li><a href="#">NINTENDO</a></li>
 							<li><a href="#">XBOX</a></li>
 							<li><a href="#" class="active">ITUNES</a></li>
 						</ul>
 					</div>
 					<div class="sign-in_wrapp">
-						<a href="#" class="transparent-pill transparent-pill_2 show_popup" data-popup-name="popup_1" >Войти</a>
+						<a href="#" class="transparent-pill transparent-pill_2 show_popup" data-popup-name="popup_1">Войти</a>
 					</div>
+					<button class="respmenubtn">	
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 				</div>
 			</div>
 		</div>
@@ -86,14 +98,9 @@
 
 			<!-- Section 1 - Itunes add money -->
 
-			<section class="grey-gradient">
+			<section class="sect_1_2 grey-gradient">
 				<div class="row">					
 					<div class="two-cols_templ_2 clearfix">
-						<div class="left">
-							<h1>Пополнить аккаунт в Itunes</h1>
-							<p>Самый дешевый способ пополнить тебе счет на рынке. В течение 15 минут в рабочее время, в течение 24 часов в выходные.</p>
-							<button type="button" class="scroll-down_btn scroll-down_btn_2"></button>
-						</div>
 						<div class="right">
 							<div class="img-box img-box_2">
 								<img src="img/itunes_2.png" alt="" />
@@ -107,6 +114,11 @@
 								</div>
 							</div>
 						</div>
+						<div class="left">
+							<h1>Пополнить аккаунт в Itunes</h1>
+							<p>Самый дешевый способ пополнить тебе счет на рынке. В течение 15 минут в рабочее время, в течение 24 часов в выходные.</p>
+							<button type="button" class="scroll-down_btn scroll-down_btn_2"></button>
+						</div>						
 					</div>
 				</div>
 			</section>

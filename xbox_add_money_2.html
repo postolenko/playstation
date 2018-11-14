@@ -15,6 +15,7 @@
 	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<title>Title</title>
 </head>
 
 <body>
@@ -60,10 +61,16 @@
 					<a href="#" class="logo">
 						<img src="img/logo_4.png" alt="logo" />
 					</a>
+					<a href="#" class="logo_resp">
+						<img src="img/logo_white.png" alt="logo" />
+					</a>
 				</div>
 				<div class="right">
-					<div class="main-nav_wrapp">
-						<ul class="main-nav main-nav_4">
+					<div class="main-nav_wrapp main-nav_wrapp_header" id="main_nav">
+						<div class="sign-in_wrapp_resp">
+							<a href="#" class="white_link show_popup" data-popup-name="popup_1">Войти</a>
+						</div>
+						<ul class="main-nav main-nav_4 main-nav_top">
 							<li><a href="#">Playstation </a></li>
 							<li><a href="#">NINTENDO</a></li>
 							<li><a href="#" class="active">XBOX</a></li>
@@ -71,8 +78,13 @@
 						</ul>
 					</div>
 					<div class="sign-in_wrapp">
-						<a href="#" class="transparent-pill transparent-pill_4 show_popup" data-popup-name="popup_1" >Войти</a>
+						<a href="#" class="transparent-pill transparent-pill_4 show_popup" data-popup-name="popup_1">Войти</a>
 					</div>
+					<button class="respmenubtn">	
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 				</div>
 			</div>
 		</div>
@@ -86,18 +98,11 @@
 
 			<!-- Section 1 - Xbox add money -->
 
-			<section class="grey-gradient">
+			<section class="sect_1_2 grey-gradient">
 				<div class="row">					
 					<div class="two-cols_templ_2 clearfix">
-						<div class="left">
-							<h1>Пополнить аккаунт в XBOX</h1>
-							<p>Самый дешевый способ пополнить тебе счет на рынке. В течение 15 минут в рабочее время, в течение 24 часов в выходные.</p>
-							<button type="button" class="scroll-down_btn scroll-down_btn_4"></button>
-						</div>
 						<div class="right">
-							<div class="img-box">
-								<img src="img/xbox.jpg" alt="" />
-							</div>
+							<div class="img-box" style="background-image: url(img/xbox.jpg);"></div>
 							<div class="controls clearfix">
 								<div>
 									<a href="#" class="blue-prev">Playstation</a>
@@ -106,6 +111,11 @@
 									<a href="#" class="bluelight-next">Itunes</a>
 								</div>
 							</div>
+						</div>
+						<div class="left">
+							<h1>Пополнить аккаунт в XBOX</h1>
+							<p>Самый дешевый способ пополнить тебе счет на рынке. В течение 15 минут в рабочее время, в течение 24 часов в выходные.</p>
+							<button type="button" class="scroll-down_btn scroll-down_btn_4"></button>
 						</div>
 					</div>
 				</div>

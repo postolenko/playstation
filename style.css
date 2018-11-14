@@ -65,11 +65,12 @@
 }
 
 html {
-    color: #000000;
-    font-size: 13px;
-    line-height: 21px;
+    font-family: "Roboto", "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #666666;
 }
-
 
 html,
 body {
@@ -198,20 +199,6 @@ textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity .3s e
 textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity .3s ease;}
 textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity .3s ease;}
 textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .3s ease;}
-
-.animation-delay-onload {
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -o-animation-delay: 1s;
-    animation-delay: 1s;
-}
-
-.animation-delay {
-    -webkit-animation-delay: .3s;
-    -moz-animation-delay: .3s;
-    -o-animation-delay: .3s;
-    animation-delay: .3s;
-}
 
 /*-------------------------------------------*/
 /* ----- DEFAULT STYLES ------ */
@@ -1746,10 +1733,6 @@ p.sum-num {
     padding: 10px 0 10px 2%;
 }
 
-.two-cols_templ_2 .left .inner {
-
-}
-
 .two-cols_templ_2 h1 {
     max-width: 380px;
     padding: 15px 0;
@@ -2150,70 +2133,9 @@ p.sum-num {
     color: #333333;
 }
 
-.loading {
-    margin: 10px 0 0 0;
-}
-
-.loading span {
-    display: inline-block;
-    vertical-align: top;
-    width: 18px;
-    height: 18px;
-    position: relative;
-}
-
-.loading span:before {
-    content: "";
-    width: 8px;
-    height: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-color: #84bafc;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transition-property: width, height, background-color;
-    -webkit-transition-duration: .3s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: width, height, background-color;
-    -moz-transition-duration: .3s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: width, height, background-color;
-    -ms-transition-duration: .3s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: width, height, background-color;
-    -o-transition-duration: .3s;
-    -o-transition-timing-function: ease;
-
-    transition-property: width, height, background-color;
-    transition-duration: .3s;
-    transition-timing-function: ease;
-}
-
-.loading span.active:before {
-    width: 14px;
-    height: 14px;
-    background-color: #043e84;
-}
-
-.loading img {
-    display: block;
-    width: auto;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 .sk-wave {
     width: 240px;
     height: 20px;
-    /*margin: auto;*/
     margin: 22px auto 0 auto;
     text-align: center;
 }
@@ -2228,6 +2150,21 @@ p.sum-num {
     display: inline-block;
     -webkit-animation: sk-wave-stretch-delay 1.2s infinite ease-in-out;
           animation: sk-wave-stretch-delay 1.2s infinite ease-in-out;
+}
+
+.sk-wave2 .sk-circle {
+    -webkit-animation: sk-wave2-stretch-delay 1.2s infinite ease-in-out;
+          animation: sk-wave2-stretch-delay 1.2s infinite ease-in-out;
+}
+
+.sk-wave3 .sk-circle {
+    -webkit-animation: sk-wave3-stretch-delay 1.2s infinite ease-in-out;
+          animation: sk-wave3-stretch-delay 1.2s infinite ease-in-out;
+}
+
+.sk-wave4 .sk-circle {
+    -webkit-animation: sk-wave4-stretch-delay 1.2s infinite ease-in-out;
+          animation: sk-wave4-stretch-delay 1.2s infinite ease-in-out;
 }
 
 .sk-wave .sk-circle-1 {
@@ -2280,25 +2217,10 @@ p.sum-num {
           animation-delay: -0.3s;
 }
 
-/*@-webkit-keyframes sk-wave-stretch-delay {
-  0%, 40%, 100% {
-    -webkit-transform: scale(0.4);
-            transform: scale(0.4);
-            opacity: 0.4; 
-  }
-
-  20% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-            opacity: 1; 
-  }
-}*/
-
-@keyframes sk-wave-stretch-delay {
+@-webkit-keyframes sk-wave-stretch-delay {
   0%, 20%, 40%, 100% {
     -webkit-transform: scale(0.4);
             transform: scale(0.4);
-            /*opacity: 0.4;*/
             background-color: #84bafc;
 
   }
@@ -2306,10 +2228,114 @@ p.sum-num {
   20% {
     -webkit-transform: scale(1);
             transform: scale(1);
-            /*opacity: 1;*/
             background-color: #043e84;
   }
-} 
+}
+
+@keyframes sk-wave-stretch-delay {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+            background-color: #84bafc;
+
+  }
+
+  20% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: #043e84;
+  }
+}
+
+@-webkit-keyframes sk-wave2-stretch-delay {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+            background-color: #49d8ff;
+
+  }
+
+  20% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: #01475b;
+  }
+}
+
+@keyframes sk-wave2-stretch-delay {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+            background-color: #49d8ff;
+
+  }
+
+  20% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: #01475b;
+  }
+}
+
+@-webkit-keyframes sk-wave3-stretch-delay {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+            background-color: #ff9096;
+
+  }
+
+  20% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: #a50b13;
+  }
+}
+
+@keyframes sk-wave3-stretch-delay {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+            background-color: #ff9096;
+
+  }
+
+  20% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: #a50b13;
+  }
+}
+
+@-webkit-keyframes sk-wave4-stretch-delay {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+            background-color: #71dd71;
+
+  }
+
+  20% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: #015801;
+  }
+}
+
+@keyframes sk-wave4-stretch-delay {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+            background-color: #71dd71;
+
+  }
+
+  20% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: #015801;
+  }
+}
 
 /*-- /Section 2 - PS add money --*/
 

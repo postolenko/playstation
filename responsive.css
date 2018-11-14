@@ -581,6 +581,15 @@
 	    line-height: 33px;
 	}
 
+	/*-- Header --*/
+
+	.dropdown_title p {
+	    font-size: 18px;
+	    line-height: 18px;
+	}
+
+	/*-- /Header --*/
+
 	/*-- Section 1 - Main Page --*/
 
 	.promo-article .left {

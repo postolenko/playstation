@@ -572,6 +572,18 @@
 
 	/*-- /Footer --*/
 
+	/*-- Popups --*/
+
+	.popup-logo {
+		display: none;
+	}
+
+	.popup-form .inner {
+	    padding: 44px 10px 0 10px;
+	}
+
+	/*-- /Popups --*/
+
 }
 
 @media only screen and (max-width: 600px) {

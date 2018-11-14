@@ -468,6 +468,11 @@
 
 	/*-- Section 1 - Dashboard Page --*/
 
+	.table .table-row {
+		font-size: 0;
+		line-height: 0;
+	}
+
 	.table .table-cell {
 	    display: inline-block;
 	    padding: 4px 10px 4px 10px;

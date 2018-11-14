@@ -49,11 +49,6 @@
 
 @media only screen and (max-width: 1124px) {
 
-/*	p {
-	    font-size: 16px;
-	    line-height: 21px;
-	}*/
-
 	/*-- Header --*/
 
 	.main-nav_wrapp {
@@ -163,8 +158,36 @@
 	    background-color: #063d86;
 	}
 
-	.header .left {
+	.header_2 {
+	    background-color: #17b9e5;
+	}
+
+	.header_2.js-scroll {
+	    background-color: #17b9e5;
+	}
+
+	.header_3 {
+	    background-color: #c32931;
+	}
+
+	.header_3.js-scroll {
+	    background-color: #c32931;
+	}
+
+	.header_4 {
+	    background-color: #107c10;
+	}
+
+	.header_4.js-scroll {
+	    background-color: #107c10;
+	}
+
+	.header.js-scroll .left {
 	    width: 60%;
+	}
+
+	.header.js-scroll .left {
+	    padding-bottom: 7px;
 	}
 
 	.header .right {
@@ -194,6 +217,18 @@
 		left: 0;
 		z-index: 11;
 		background: rgba(6, 61, 134, .95);
+	}
+
+	.header_2 .main-nav_wrapp_header {
+		background: rgba(23, 185, 229, .95);
+	}
+
+	.header_3 .main-nav_wrapp_header {
+		background: rgba(195, 41, 49, .95);
+	}
+
+	.header_4 .main-nav_wrapp_header {
+		background: rgba(16, 124, 16, .95);
 	}
 
 	.main-nav_top {
@@ -308,11 +343,15 @@
 	}
 
 	.promo-article .img-box img {
-	    left: 51%;
+	    left: 50%;
 	}
 
 	.promo-article .blue-pill {
 		margin: 33px 0 20px 0;
+	}
+
+	.promo-article_4 .img-box img {
+	    top: 105px;
 	}
 
 	/*-- /Section 1 - Main Page --*/
@@ -371,6 +410,11 @@
 
 	.promo-article p {
 	    padding: 8px 0;
+	}
+
+	.promo-article_3 .img-box img {
+	    top: 195px;
+	    left: 50%;
 	}
 
 	/*-- /Section 1 - Main Page --*/
@@ -548,6 +592,14 @@
 	    max-height: 265px;
 	}
 
+	.promo-article_3 .img-box img {
+	    top: 42px;
+	}
+
+	.promo-article_4 .img-box img {
+	    top: 32px;
+	}
+
 	/*-- /Section 1 - Main Page --*/
 
 	/*-- Section 3 - Main Page --*/
@@ -626,10 +678,7 @@
 	}
 
 	.form_wrapp_2 .input_wrapp {
-/*	    display: inline-block;
-	    vertical-align: top;*/
 	    width: 100%;
-	    /*margin: 10px 0;*/
 	    padding: 0;
 	}
 
@@ -686,6 +735,10 @@
 	    height: 277px;
 	}
 
+	.promo-article_3 .img-box img {
+	    top: 81px;
+	}
+
 	/*-- /Section 1 - Main Page --*/
 
 	/*-- Section 2 - Main Page --*/
@@ -728,9 +781,11 @@
 	
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
 
-	
+	.promo-article_4 .img-box img {
+	    top: 89px;
+	}
 
 }
 

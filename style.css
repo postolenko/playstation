@@ -1435,7 +1435,7 @@ textarea:focus {
 
 /*-- Section 2 - Main Page 2 --*/
 
-.thumbnails-1_2 .thumb-1 p.num {
+.thumbnails-1_2 .thumb-1 p .num {
     color: #17b9e5;
 }
 
@@ -1509,7 +1509,7 @@ textarea:focus {
 
 /*-- Section 2 - Main Page 3 --*/
 
-.thumbnails-1_3 .thumb-1 p.num {
+.thumbnails-1_3 .thumb-1 p .num {
     color: #c32931;
 }
 
@@ -1583,7 +1583,7 @@ textarea:focus {
 
 /*-- Section 2 - Main Page 4 --*/
 
-.thumbnails-1_4 .thumb-1 p.num {
+.thumbnails-1_4 .thumb-1 p .num {
     color: #107c10;
 }
 

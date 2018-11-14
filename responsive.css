@@ -64,6 +64,11 @@
 	    line-height: 20px;
 	}
 
+	.dropdown_list p {
+	    font-size: 15px;
+	    line-height: 23px;
+	}
+
 	/*-- /Header --*/
 
 	/*-- Section 1 - Dashboard Page --*/
@@ -129,6 +134,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
+	/*-- Header --*/
+
+	.dropdown_title p {
+	    font-size: 17px;
+	    line-height: 20px;
+	}
+
+	/*-- /Header --*/
 
 	/*-- Section 2 - Main Page --*/
 
@@ -317,12 +331,18 @@
 	}
 
 	.main-nav_wrapp .dropdown_wrapp {
-		max-width: 245px;
+		display: inline-block;
+		vertical-align: top;
 		margin: 20px auto;
 	}
 
 	.main-nav_wrapp .dropdown_wrapp .dropdown_list {
 		position: relative;
+	}
+
+	.dropdown_title p {
+	    font-size: 22px;
+	    line-height: 22px;
 	}
 
 	/*-- /Header --*/

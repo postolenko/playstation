@@ -879,6 +879,10 @@ textarea:focus {
     padding: 0 27px;
 }
 
+.user_wrapp_append {
+    text-align: center;
+}
+
 .main-nav {
     margin: 4px 0;
 }

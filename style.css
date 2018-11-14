@@ -852,12 +852,12 @@ textarea:focus {
 }
 
 .header .left {
-    width: 18%;
+    width: 15%;
     padding: 10px 1% 10px 0;
 }
 
 .header .right {
-    width: 82%;
+    width: 85%;
     padding: 12px 0 10px 1%;
     text-align: right;
 }
@@ -975,7 +975,6 @@ textarea:focus {
 
 .dropdown_title {
     cursor: pointer;
-    background-image: url(img/dropdown_arrow.png);
     padding: 0 23px 0 0;
     background-image: url(img/dropdown_arrow.png);
     background-repeat: no-repeat;
@@ -1218,19 +1217,18 @@ textarea:focus {
     position: relative;
     z-index: 2;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 30px;
     font-weight: 500;
     color: #333333;
 }
 
-.thumb-1 p.num {
-    position: absolute;
-    top: -26px;
-    left: 0;
-    z-index: 1;
+.thumb-1 p .num {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3px;
     opacity: .33;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 30px;
     font-weight: bold;
     color: #063d86;
 }
@@ -1609,7 +1607,7 @@ textarea:focus {
 
 .count-box {
     margin: 20px 0;
-    padding: 24px 12% 23px 12%;
+    padding: 24px 30px 23px 30px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -2686,7 +2684,7 @@ p.sum-num {
 .popup {
     display: block;
     max-width: 370px;
-    margin: 90px auto 20px auto;
+    margin: 65px auto 20px auto;
 }
 
 .popup-form {

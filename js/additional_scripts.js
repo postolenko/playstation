@@ -1,6 +1,7 @@
 $(window).on("load",function(){
 
-	getScrollBar()
+	getScrollBar();
+	$(".scroll").mCustomScrollbar();
 
 });
 
@@ -20,11 +21,11 @@ function getScrollBar() {
 
 	if( bodyWidth <= 900 ) {
 
-		$("#main_nav").mCustomScrollbar()
+		$("#main_nav").mCustomScrollbar();
 
 	} else {
 
-		$("#main_nav").mCustomScrollbar('destroy')
+		$("#main_nav").mCustomScrollbar('destroy');
 
 	}
 
